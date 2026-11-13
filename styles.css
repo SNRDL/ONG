@@ -541,6 +541,9 @@ footer div{
         display: flex;
         flex-direction: row;
     }
+    footer div img{
+        display: none;
+    }
     
     }
     
