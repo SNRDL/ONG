@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Cambio Para El Fútbol Argentino - ONG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: white;">
+    <center>
+        <header id="barraEnlaces">
+            <nav>
+                <ul id="flexNav">
+                    <img src="imagenes/logo.png" alt="" ><a href="index.html"></a>
+                    <li><a href="index.html" class="link">Inicio</a></li>
+                    <li><a href="quieneSomos.html" class="link">Quienes somos</a></li>
+                    <li><a href="queHacemos.html" class="link">Que hacemos </a></li>
+                    <form><li><a onclick="abrirRegistrarse()" class="link">Registrarse</a></li></form>
+                    <form><li><a onclick="abrirModal()" class="link">Donar</a></li></form>
+                    <button type="button" onclick="flexToggle()" aria-label="Abrir o cerrar menú" aria-expanded="false">☰</button>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section id="hero">
+            <img src="imagenes/banner.jpg" alt="banner imagen">
+            <a href="#conocenos"><b>CONOCER MÁS</b></a>
+        </section>
+        <section id="conocenos">
+            <div id="conocenos-texto">
+                <h1>Conocenos</h1>
+                <div>
+                    <p>
+                        Muchos jóvenes, adultos y gente mayor apacionados del fútbol cuestionaron por
+                        mucho tiempo la gestión por parte de la Asociacón Argentina de Fútbol.
+                        Se cuestionaron arbitrajes, corrupción tanto en partidos importantes, como no importantes.
+                        Somos una ONG creada con el fin de cambiar la gestion del actual 
+                        futbol de Argentina. Principalmente estamos enfocados en mejorarlo 
+                        y, que este, sea lo mas profesional y justo posible. Para ello
+                        trabajamos junto a los clubes que deseen pertenecer a nuesta ONG, con ello
+                        deben aceptar ciertas cuestiones estipuladas en un contrato con el club.
+                    </p>
+                    <img src="imagenes/afa-frente.jpeg" alt="">
+                </div>
+            </div>
+            <center>
+                <div id="conocenos-imagen">
+                    <h1>Aliados</h1>
+                    <div alt="div equipos">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cat.jpg" alt="Imagen de conocenos 1">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cai.jpg" alt="Imagen de conocenos 2">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/carp.jpg" alt="Imagen de conocenos 3">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/dyj.jpg" alt="Imagen de conocenos 4">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/racing.jpg" alt="Imagen de conocenos 5">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cap.jpg" alt="Imagen de conocenos 6">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cab.jpg" alt="Imagen de conocenos 7">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cavs.jpg" alt="Imagen de conocenos 8">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cal.jpg" alt="Imagen de conocenos 9">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cagyelp.jpg" alt="Imagen de conocenos 10">
+                        <img id="conocenos-imagen" style="width: 113px;" src="imagenes/equipos-aliados/cati.jpg" alt="Imagen de conocenos 11">
+                    </div>
+                </div>
+            </center>
+        </section>
+    </main>
+    </center>
+    
+    <footer>
+        <div class="footerInfo">
+            <img src="imagenes/logo.png" alt="Logo de Un cambio al Fútbol Argentino">
+
+            <ul>
+                <li>
+                    <span>Contacto:</span>
+                    <a href="mailto:contacto@ong.com">contacto@ong.com</a>
+                </li>
+                <li>
+                    <span>Teléfono:</span>
+                    <a href="tel:+541100000000">+54 11 0000-0000</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footerNav">
+            <nav aria-label="Navegación del pie de página">
+                <ul id="flexNav">
+                    <li><a href="index.html" class="link">Inicio</a></li>
+                    <li><a href="quieneSomos.html" class="link">Quiénes somos</a></li>
+                    <li><a href="queHacemos.html" class="link">Qué hacemos</a></li>
+                    <li><a href="#" onclick="abrirRegistrarse(); return false;" class="link">Registrarse</a></li>
+                    <li><a href="#" onclick="abrirModal(); return false;" class="link">Donar</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footerLegal">
+            <ul>
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

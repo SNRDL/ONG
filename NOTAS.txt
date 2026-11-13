@@ -1,0 +1,16 @@
+Con el dinero recaudado de las donaciones se reparte para clubes de bajos recursos, que aporten gran cantidad de firmas para la ONG.
+-----------------------------------------------------------------------------
+Position absolute/relative
+flexbox: claseflexbox.pdf
+mediaqueries para celular
+javascript: - tipos de datos
+            - Selectores:   - queryselector
+                            - queryselectorAll
+            - .innerText
+            - .innerHTML
+            - ABC de crear elementos en javascript: 
+            - FlexNav Kebab
+            - Onclick, llamar funciones
+Formularios HTML: inputs,type, label, id y for 
+    los basicos 
+

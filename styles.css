@@ -1,0 +1,547 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Barra de navegación */
+footer{
+    background-color: rgb(0, 109, 252);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    font-family: "Inter", sans-serif;
+}
+footer div{
+    margin: 1%;
+    width: 33%;
+    background-color: rgb(1, 162, 255);
+    text-align: center;
+}
+footer img{
+    position: relative;
+    left: 0px;
+    margin: 5%;
+    width: 150px;
+}
+footer div ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin: 20px;
+    text-decoration: none;
+    background-color: rgb(65, 182, 250);
+    padding: 10px;
+}
+footer nav{
+    position: relative;
+    top: 10%;
+}
+footer a{
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+} 
+#queHacemos2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 30px;
+}
+#queHacemos2 div{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    width: 50%;
+    height: 80%;
+    border-radius: 15px;
+    gap: 10px;
+}    
+#queHacemos2 p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin: 25px;
+    text-align: justify;
+}
+#queHacemos2 h2{
+    text-align: center;
+    margin-top: 25px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+#queHacemos2 img{
+    border-radius: 15px;
+    width:250px;
+}
+#quieneSomos {
+    background-color: lightskyblue;
+    width: 50vw;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+#quieneSomos h1 {
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#quieneSomos p {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+#barraEnlaces nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+    padding-right: 20px;
+    background-color: rgb(1, 162, 255);
+}
+
+#barraEnlaces nav li {
+    padding: 8px;
+    background-color: lightskyblue;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 25px;
+}
+
+#barraEnlaces nav a {
+    display: block;
+    text-decoration: none;
+    color: black;   
+    padding: 15px; 
+    cursor: pointer;
+}
+
+#barraEnlaces nav a:hover {
+    background-color: white;
+    border-radius: 25px;
+}
+
+#barraEnlaces nav img {
+    width: 90px;
+    position: absolute;
+    left: 12px;
+}
+
+#barraEnlaces nav button {
+    display: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    position: relative;
+    font-family: Montserrat, sans-serif;
+}
+
+#hero a {
+    position: absolute;
+    padding: 20px;
+    background-color:  rgb(1, 162, 255);
+    bottom: 25%;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-style: groove;
+    border-radius: 15px;
+    
+}
+#hero a:hover {
+    background-color: lightskyblue;
+}
+#hero img{
+    width: 100%;
+    height: auto;
+}
+#conocenos { 
+    background-color: rgb(1, 162, 255);
+    height: 100vh;
+    display: flex;
+}
+
+#conocenos-texto {
+    background-color: lightskyblue;
+    width: 50vw;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+#conocenos-texto p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+}
+#conocenos-texto h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-family: Montserrat, sans-serif;
+}
+#conocenos-texto h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-family: Montserrat, sans-serif;
+}
+#conocenos-texto img{
+    margin: 7%;
+    width: 500px;
+    border-radius: 25px;
+}
+#conocenos-imagen div{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50vw;
+    background-color: rgb(1, 162, 255);
+    border-radius: 15px;
+    padding: 8px;
+}
+#conocenos-imagen  img{
+    border-radius: 15px;
+    margin: 7px;
+}
+#conocenos-imagen h1{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    font-family: Montserrat, sans-serif;
+    
+}
+#diVisionMision{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+    flex-direction: column;
+    border-radius: 15px;
+}
+#diVisionMision p{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+#diVisionMision h2{
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+#queHacemos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 65%;
+    height: auto;
+    border-radius: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}   
+#queHacemos h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+}
+#queHacemos p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    font-family: "Inter", sans-serif;
+}
+#queHacemos img {
+    width:500px;
+    height:250px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column-reverse;
+}
+#queHacemos2 {
+    background-color: lightskyblue;
+    width: 100%;
+    display: 100%; 
+    border-radius: 10px;
+}
+.nuevoModal{
+    background-color: lightskyblue;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 60%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+}
+.nuevoModal button{
+    position: relative;
+    top:15%;
+    right: 6%;
+    width: 60vh;
+    height: 50px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+
+}
+.nuevoModal h1{
+    margin: 7%;
+}
+.nuevoModal p{
+    margin: 5%;
+    font-size: 25px;
+}
+#precios{
+    position: relative;
+    left: 38%;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 4%;
+}
+.divUno{
+    background-color: rgb(48, 174, 253);
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 75%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+        
+} 
+.divUno h1{
+    margin-top: 7%;
+    font-size: 30px;
+}
+.divUno p{
+    margin: 5%;
+}
+.divUno h2{
+    margin-bottom: -50px;
+}
+.divUno p.datos{
+    margin-top: 0%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+.divUno input{
+    position: relative;
+    left: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    justify-items: center;
+    
+}
+footer div{
+    display:flex;
+    position: relative;  
+    align-self:flex-start;
+    justify-content: center;
+    
+    
+}
+
+@media (max-width: 600px) {
+    /* Menú móvil: cerrado por defecto */
+    #barraEnlaces nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+        gap: 0;
+        min-height: 0;
+        height: auto;
+        padding: 58px 0 0;
+        background-color: rgb(1, 162, 255);
+    }
+
+    #barraEnlaces nav img {
+        display: none;
+    }
+
+    #barraEnlaces nav button {
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 12px;
+        z-index: 2;
+    }
+
+    #barraEnlaces nav li {
+        display: none;
+        width: 100%;
+        height: 10vh;
+        padding: 0;
+        text-align: center;
+        border-bottom: 2px solid black;
+        background-color: rgb(1, 162, 255);
+    }
+
+    #barraEnlaces nav li a {
+        display: block;
+        width: 100%;
+        line-height: calc(10vh - 16px);
+    }
+
+    #barraEnlaces nav ul.flexToggle li {
+        display:block;
+    }
+
+    #conocenos {
+        flex-direction: column;
+        background-color: rgb(1, 162, 255);
+        height: auto;
+        width: auto;
+        
+    }
+    #conocenos a {
+        font-size: 10px;
+        
+    }
+    #conocenos div {
+        width: 100%;
+        align-items: center;
+    }
+
+    #hero img {
+        width: 100vw;
+        height: auto;
+    }
+
+    #hero a {
+        position: absolute;
+        left: 40%;
+        width: 25%;
+        height: 50px;
+        border-radius: 10%;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #conocenos-imagen h1 {
+        font-size: 27px;
+    }
+
+    #conocenos-texto p {
+        font-size: 17px;
+        padding-bottom: 5%;
+        text-align: justify;
+    }
+    #queHacemos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    #queHacemos2{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nuevoModal{
+    background-color: lightskyblue;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 70%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+    }
+    .nuevoModal button{
+    position: relative;
+    top:15%;
+    right: 10%;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    
+    }
+    #precios{
+    position: relative;
+    left: 45px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 4%;
+    }
+    .divUno{
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 85%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;      
+    }
+    .divUno input{
+    position: relative;
+    left: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+    justify-items: center;
+    } 
+    .divUno h2{
+    margin-bottom: 20px;
+    }
+    footer {
+        height: 65vh;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    }
+    
+
